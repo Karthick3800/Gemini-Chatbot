@@ -1,0 +1,14 @@
+#gemini:
+#  api:
+#    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
+#    key: "AIzaSyC7lUCw5GjpKwzGwNyBw_z6GZjUzifyhgA"
+#      url: ${Gemini}
+
+gemini:
+  api:
+    url: ${GEMINI_API_URL}
+    key: ${GEMINI_API_KEY}
+
+server:
+  port: 8082
+
